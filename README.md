@@ -14,30 +14,6 @@ Mở tệp **index.html** bằng Chrome/Edge/Firefox để thử toàn bộ quy 
 
 ## Bật AI tạo ảnh và nhận diện trang phục
 
-Cần Node.js **phiên bản 18 trở lên** và OpenAI API key có quyền dùng mô hình hình ảnh và mô hình thị giác. API có chi phí sử dụng riêng.
-
-Trong thư mục này:
-
-**Windows PowerShell**:
-```powershell
-$env:OPENAI_API_KEY="DAN_API_KEY_CUA_BAN"
-node server.js
-```
-
-**macOS / Linux**:
-```bash
-export OPENAI_API_KEY="DAN_API_KEY_CUA_BAN"
-node server.js
-```
-
-Truy cập **http://127.0.0.1:3000**.
-
-- Hệ thống gọi OpenAI Image API trên **server** để dựng tuần tự 3 ảnh outfit, tùy theo sở thích của người dùng; mặc định (có thể thay qua biến môi trường.
-- Khi tải ảnh lên, trình duyệt thu nhỏ ảnh trước khi gửi tới server; hệ thống nhận diện mô tả trang phục bằng mô hình thị giác.
-- Nếu gặp lỗi API, hệ thống chuyển về ảnh demo và hiển thị thông báo.
-- Ảnh upload dùng để **nhận diện/mô tả trang phục**, không phải virtual try-on, không bảo đảm giữ nguyên chính xác vật phẩm của người dùng trong ảnh tạo mới.
-- Không lưu API key trong các tệp frontend. **Không đưa server demo lên mạng công khai khi chưa bổ sung đăng nhập, giới hạn truy cập và kiểm soát chi phí.**
-
 ## Cấu trúc thư mục
 
 ```text
