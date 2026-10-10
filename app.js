@@ -14,8 +14,8 @@
     { id:'khac', label:'Khác', icon:'✨', note:'Tạo nên dịp của riêng bạn' }
   ];
   const TRADITIONS = [
-    { id:'ao-dai', label:'Áo dài Nhật Bình', image:'ao-dai.svg', desc:'Trang phục giàu tính biểu tượng của Việt Nam, nổi bật với dáng áo dài, đường xẻ tà và phom thanh thoát. Dễ phối với quần suông, chân váy hoặc phụ kiện hiện đại.' },
-    { id:'vien-linh', label:'Ngũ thân tay chẽn', image:'vien-linh.svg', desc:'Dạng áo cổ tròn (viên lĩnh) trong hệ thống trang phục truyền thống Việt Nam, thường có thân áo rộng, tay áo và chi tiết trang trí thay đổi theo bối cảnh lịch sử. Có thể cách điệu bằng phom tối giản, chất liệu nhẹ và phụ kiện đương đại.' }
+    { id:'ao-dai', label:'Áo dài Nhật Bình', image:'ÁO NHẬT BÌNH (tách nền).png', desc:'Trang phục giàu tính biểu tượng của Việt Nam, nổi bật với dáng áo dài, đường xẻ tà và phom thanh thoát. Dễ phối với quần suông, chân váy hoặc phụ kiện hiện đại.' },
+    { id:'vien-linh', label:'Ngũ thân tay chẽn', image:'ÁO NGŨ THÂN TAY CHẼN (tách nền).png', desc:'Dạng áo cổ tròn (viên lĩnh) trong hệ thống trang phục truyền thống Việt Nam, thường có thân áo rộng, tay áo và chi tiết trang trí thay đổi theo bối cảnh lịch sử. Có thể cách điệu bằng phom tối giản, chất liệu nhẹ và phụ kiện đương đại.' }
   ];
   const MODERN = [
     {id:'quan', label:'Quần', icon:'👖'}, {id:'ao',label:'Áo',icon:'👕'},
