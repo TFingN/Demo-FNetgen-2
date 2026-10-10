@@ -1,8 +1,4 @@
-# F-NétGen — Mặc chất riêng – Giữ chất Việt
-
-Website mẫu tương tác dựa trên ý tưởng của bạn và bố cục/tông màu trong file PDF tham khảo. Mã nguồn HTML/CSS/JavaScript thuần; máy chủ Node.js chỉ dùng thư viện tích hợp.
-
-## Dùng ngay (không cần cài đặt)
+ F-NétGen — Mặc chất riêng – Giữ chất Việt
 
 Mở tệp **index.html** bằng Chrome/Edge/Firefox để thử toàn bộ quy trình ở **chế độ demo**.
 
@@ -14,7 +10,7 @@ Mở tệp **index.html** bằng Chrome/Edge/Firefox để thử toàn bộ quy 
 - Bước 5: chỉnh màu, phom dáng, độ dài và ghi chú, sau đó chốt outfit.
 - Trang kết quả và tải thẻ thiết kế PNG.
 
-**Quan trọng:** Khi chưa kết nối API, các ảnh outfit lấy từ ảnh mẫu trong PDF, **không phải AI đã tạo ra bộ đồ mới**. Điểm hợp gu chỉ là minh họa được tính từ các lựa chọn, không phải phép đo hoặc độ chính xác AI. Phần phủ màu ở bước 5 chỉ là xem trước; không thay đổi đường may của ảnh nếu chưa chạy AI.
+**Quan trọng:** Khi chưa kết nối API, các ảnh outfit lấy từ ảnh mẫu trong PDF. Điểm hợp gu chỉ là minh họa được tính từ các lựa chọn, không phải phép đo hoặc độ chính xác AI. Phần phủ màu ở bước 5 chỉ là xem trước; không thay đổi đường may của ảnh nếu chưa chạy AI.
 
 ## Bật AI tạo ảnh và nhận diện trang phục
 
@@ -36,8 +32,8 @@ node server.js
 
 Truy cập **http://127.0.0.1:3000**.
 
-- Hệ thống gọi OpenAI Image API trên **server** để dựng tuần tự 3 ảnh outfit, tùy theo sở thích người dùng; mặc định `gpt-image-1-mini` (có thể thay qua biến môi trường `IMAGE_MODEL`).
-- Khi tải ảnh lên, trình duyệt thu nhỏ ảnh trước khi gửi tới server; hệ thống nhận diện mô tả trang phục bằng mô hình thị giác (mặc định `gpt-4.1-mini`, thay qua `VISION_MODEL`).
+- Hệ thống gọi OpenAI Image API trên **server** để dựng tuần tự 3 ảnh outfit, tùy theo sở thích của người dùng; mặc định (có thể thay qua biến môi trường.
+- Khi tải ảnh lên, trình duyệt thu nhỏ ảnh trước khi gửi tới server; hệ thống nhận diện mô tả trang phục bằng mô hình thị giác.
 - Nếu gặp lỗi API, hệ thống chuyển về ảnh demo và hiển thị thông báo.
 - Ảnh upload dùng để **nhận diện/mô tả trang phục**, không phải virtual try-on, không bảo đảm giữ nguyên chính xác vật phẩm của người dùng trong ảnh tạo mới.
 - Không lưu API key trong các tệp frontend. **Không đưa server demo lên mạng công khai khi chưa bổ sung đăng nhập, giới hạn truy cập và kiểm soát chi phí.**
@@ -61,7 +57,3 @@ f-netgen/
 - Prompt tạo 3 ảnh: hàm `generatePrompt` trong `server.js`.
 - Muốn thêm hệ thống lưu outfit, tài khoản người dùng, kích cỡ người mẫu hoặc đặt mua: cần phát triển chức năng riêng.
 
-### Tài liệu tham khảo về API
-
-- https://developers.openai.com/api/reference/resources/images
-- https://developers.openai.com/api/docs/guides/image-generation
