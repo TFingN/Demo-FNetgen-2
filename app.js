@@ -19,7 +19,7 @@
   ];
   const MODERN = [
     {id:'quan', label:'Quần', icon:'👖'}, {id:'ao',label:'Áo',icon:'👕'},
-    {id:'vay',label:'Váy',icon:'👗'}, {id:'dam',label:'Đầm',icon:'👗'}
+    {id:'vay',label:'Váy',icon:'👗'}, {id:'dam',label:'Đầm',icon:'𓎾'}
   ];
   const STYLES = [
     {id:'thanh-lich', label:'Thanh lịch', desc:'Tinh tế, nhẹ nhàng, sang trọng',image:'style-elegant.png',symbol:'✦'},
