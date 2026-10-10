@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 360" role="img" aria-label="Minh họa áo viên lĩnh cổ tròn">
+<defs><linearGradient id="v" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#b6a575"/><stop offset=".58" stop-color="#766e55"/><stop offset="1" stop-color="#434c45"/></linearGradient></defs>
+<ellipse cx="158" cy="337" rx="108" ry="8" fill="#d7c193" opacity=".4"/>
+<path d="M130 51 L190 51 L222 76 L272 91 L302 153 L260 175 L231 129 L221 329 Q160 345 98 329 L89 129 L60 175 L18 153 L48 91 L98 76Z" fill="url(#v)" stroke="#58503b" stroke-width="2.6"/>
+<path d="M130 51 L190 51 L222 76 L272 91 L302 153 L260 175 L231 129 L221 329 Q160 345 98 329 L89 129 L60 175 L18 153 L48 91 L98 76 Z" fill="none" stroke="#d9bb7a" stroke-width="2" stroke-dasharray="3 5" opacity=".45"/>
+<path d="M131 54 Q131 91 160 93 Q189 91 189 54" fill="#e7d7aa" stroke="#b7995f" stroke-width="8"/><path d="M140 51 Q142 77 160 80 Q179 77 180 51" fill="none" stroke="#7a3825" stroke-width="6"/>
+<path d="M160 94 L160 332 M98 102 L101 326 M222 102 L219 326 M59 109 L65 162 M261 109 L255 162" stroke="#d3b47a" stroke-width="2.3" fill="none"/>
+<g fill="none" stroke="#dfc58b" stroke-width="1.5"><circle cx="160" cy="167" r="29"/><circle cx="160" cy="167" r="20"/><path d="M160 140Q185 167 160 194Q135 167 160 140ZM133 167Q160 143 187 167Q160 191 133 167Z"/><circle cx="160" cy="259" r="24"/><path d="M136 259L160 235 184 259 160 283Z"/></g>
+</svg>

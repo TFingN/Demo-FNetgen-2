@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 360" role="img" aria-label="Minh họa áo dài Việt Nam">
+<defs><linearGradient id="t" x1="0" x2="1"><stop stop-color="#8f1c21"/><stop offset=".5" stop-color="#c23a34"/><stop offset="1" stop-color="#8d1e1c"/></linearGradient><pattern id="g" width="23" height="23" patternUnits="userSpaceOnUse"><path d="M11 1 Q21 11 11 21 Q1 11 11 1" fill="none" stroke="#e4c383" stroke-width=".7" opacity=".55"/></pattern></defs>
+<ellipse cx="160" cy="335" rx="91" ry="8" fill="#dac597" opacity=".45"/>
+<path d="M133 50 L187 50 L199 70 L242 87 Q267 95 276 117 L246 140 L219 113 L210 335 L165 320 L160 184 L155 320 L110 335 L101 113 L74 140 L44 117 Q53 95 78 87 L121 70 Z" fill="url(#t)" stroke="#7a2725" stroke-width="2.4"/>
+<path d="M133 50 L187 50 L199 70 L242 87 Q267 95 276 117 L246 140 L219 113 L210 335 L165 320 L160 184 L155 320 L110 335 L101 113 L74 140 L44 117 Q53 95 78 87 L121 70Z" fill="url(#g)"/>
+<path d="M134 50 Q159 42 186 50 L187 67 Q161 81 133 67 Z" fill="#e9c68a" stroke="#9a7237" stroke-width="2"/><path d="M141 52 L180 52 M160 75 L162 184" stroke="#f7eac6" stroke-width="2.7"/>
+<path d="M162 182 L166 320 M162 184 L155 320 M219 113 L203 131 L206 315 M101 113 L118 131 L115 315" fill="none" stroke="#f1cd86" stroke-width="1.5"/>
+<circle cx="162" cy="91" r="2.6" fill="#e9c68a"/><circle cx="162" cy="111" r="2.6" fill="#e9c68a"/><circle cx="162" cy="131" r="2.6" fill="#e9c68a"/>
+</svg>
